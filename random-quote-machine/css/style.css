@@ -1,0 +1,61 @@
+body{
+  
+}
+h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+#quote-box {
+  
+  
+} 
+.box{
+  position:relative;
+  width:450px;
+  height: 500px;
+  padding:40px 40px;
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 40px 500px 40px ;
+  background-color: #EDD;
+}
+ #text {
+    text-align:center;
+    width:450px;
+    height:auto;
+    clear:both;
+    font-weight:500;
+    font-size:1.75em;
+    padding: 200px 10px;
+    
+  }
+  #author {
+    width:450px;
+    height:auto;
+    clear:both;
+    padding-top:20px;
+    font-size:1em; 
+    text-align:right;
+    padding-left: 800px;
+  }
+  .btn {
+    width:250px;
+    margin:auto;
+    display:block;
+      height:38px;
+      border:none;
+      border-radius:3px;
+      color:#fff;
+      background-color:#333;
+      outline:none;
+      font-size:0.85em;
+      padding: 8px 18px 6px 18px;
+      margin-top:30px;
+      opacity:1;
+      cursor:pointer;
+  
+   
+}
