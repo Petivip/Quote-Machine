@@ -1,2 +1,2 @@
 # Quote-machine
-Random quote generating app
+An app that generates random quote 
