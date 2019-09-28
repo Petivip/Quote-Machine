@@ -36,6 +36,9 @@ $(document).ready(function(){
   $("#tweet-qoute").on("click",function(){
     window.open("https://twitter.com/intent/tweet?text=" + '"'+ rndquote +'"' + '-' + rndauthor )
   })
+   $("#facebook-qoute").on("click",function(){
+    window.open("https://facebook.com/intent?text=" + '"'+ rndquote +'"' + '-' + rndauthor )
+  })
   $("#new-qoute").on("click", function(){
     getQuote();
     getColor();
