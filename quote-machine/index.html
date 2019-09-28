@@ -15,25 +15,36 @@
 
 <body>
 
-  <div id='container-fluid'>
-<div class="text-center">
-  <h1>Random Quote Generator</h1>
-
-  </div>
+ <div class="text-center">
+      <h1>Random Quote Generator</h1>
+   </div>
+  
   <div id='qoute-box' class='box'>
   <span class="text-center" id="text"> 
   </span>
     <br />
   <span id="author"> 
   </span>
-    <br />
+    <br/>
+    <br/>
+    
+    <div class="container-fluid">
     <div class="row">
-  <button class="btn btn-default" id="new-qoute" type="submit">New Quote</button>
-  <a href="#" id="tweet-qoute" class="btn btn-default">Tweet Quote</a>
+     <div class="col-xs-4">
+       <button class="btn btn-default" id="new-qoute" type="submit">New Quote</button>
     </div>
-  
-  </div> 
-</div>
+    
+       <div class="col-xs-4">
+  <button href="#" id="tweet-qoute" class="btn btn-default"><i class="fa fa-twitter"></i></button>
+    </div>
+             <div class="col-xs-4">
+  <button href="#" id="facebook-qoute" class="btn btn-default"><i class="fa fa-facebook"></i></button>
+    </div>
+    </div>
+        </div>
+      </div> 
+    </div>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
 
