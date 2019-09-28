@@ -1,54 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+body{
+  background-color: #e8d79e
+}
 h1 {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
-.box {
-  position: relative;
-  width: 450px;
+
+.box{
+  position:relative;
+  width:550px;
   height: 500px;
-  padding: 40px 40px;
+  padding:40px 40px;
   border: 2px solid;
-  border-radius: 5px;
-  margin: 40px 500px 40px;
-  background-color: #EDD;
+  border-radius: 50px;
+  margin: 40px 500px 40px ;
+  background-color: #c9a016;
 }
-
-#text {
-  text-align: center;
-  width: 450px;
-  height: auto;
-  clear: both;
-  font-weight: 500;
-  font-size: 1.75em;
-  padding: 200px 10px;
+ #text {
+    text-align:center;
+    width:500px;
+    height:auto;
+    font-weight:550;
+    font-size:2em;
+    padding: 200px 10px;
+    
+  }
+  #author {
+    width:450px;
+    height:auto;
+    padding-top:20px;
+    font-size:1.2em; 
+    padding-left: 250px;
+  }
+#tweet-qoute{
+  margin-left:130px;
+  width:80px;
+  
 }
-
-#author {
-  width: 450px;
-  height: auto;
-  clear: both;
-  padding-top: 20px;
-  font-size: 1em;
-  text-align: right;
-  padding-left: 800px;
-}
-
-.btn {
-  width: 250px;
-  margin: auto;
-  display: block;
-  height: 38px;
-  border: none;
-  border-radius: 3px;
-  color: #fff;
-  background-color: #333;
-  outline: none;
-  font-size: 0.85em;
-  padding: 8px 18px 6px 18px;
-  margin-top: 30px;
-  opacity: 1;
-  cursor: pointer;
+#facebook-qoute{
+  margin-left:1px;
+   width:80px;
 }
