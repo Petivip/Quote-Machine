@@ -1,4 +1,4 @@
-Quote-machine
+Quote Machine
 
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/ONjoLe/. This app generates Random Qoutes with every click.
